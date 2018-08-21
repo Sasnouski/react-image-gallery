@@ -69,7 +69,9 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 .image-gallery-fullscreen-button,
 .image-gallery-play-button,
 .image-gallery-left-nav,
-.image-gallery-right-nav {
+.image-gallery-right-nav,
+.image-gallery-thumbnails-left-arrow,
+.image-gallery-thumbnails-right-arrow {
   appearance: none;
   background-color: transparent;
   border: 0;
@@ -93,7 +95,9 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 }
 
 .image-gallery-left-nav,
-.image-gallery-right-nav {
+.image-gallery-right-nav,
+.image-gallery-thumbnails-left-arrow,
+.image-gallery-thumbnails-right-arrow {
   color: $ig-white;
   font-size: 5em;
   padding: 50px 15px;
